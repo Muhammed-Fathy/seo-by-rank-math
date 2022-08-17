@@ -1,0 +1,14 @@
+// compileCompressed: ../css/$1.css
+
+@import 'sidebar';
+
+@import
+    'avada/variables',
+    'avada/app-root',
+    'avada/app',
+    'avada/modal-button',
+    'avada/modal',
+    'avada/primary-term-select',
+    'avada/rtl',
+    'avada/sidebar',
+    './partials/common/pro-cta';

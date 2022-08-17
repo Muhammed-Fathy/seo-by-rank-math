@@ -43,7 +43,6 @@ class Shared extends WP_REST_Controller {
 	 * Register shared routes.
 	 */
 	public function register_routes() {
-
 		register_rest_route(
 			$this->namespace,
 			'/updateRedirection',

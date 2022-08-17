@@ -72,6 +72,7 @@ const entryPoints = {
 		classic: './assets/admin/src/classic/classic.js',
 		gutenberg: './assets/admin/src/gutenberg/gutenberg.js',
 		elementor: './assets/admin/src/elementor/elementor.js',
+		avada: './assets/admin/src/avada/avada.js',
 		'rank-math-app': './assets/admin/src/app.js',
 		'gutenberg-formats': './assets/admin/src/gutenberg/formats/index.js',
 		'gutenberg-primary-term': './assets/admin/src/gutenberg-primary-term.js',
@@ -137,6 +138,7 @@ const entryPoints = {
 const paths = {
 	plugin: './assets/admin/js',
 	divi: './assets/admin/js',
+	avada: './assets/admin/js',
 	analytics: './includes/modules/analytics/assets/js',
 	front: './assets/front/js',
 	'instant-indexing': './includes/modules/instant-indexing/assets/js',

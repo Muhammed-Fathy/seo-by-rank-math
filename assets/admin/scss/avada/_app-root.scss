@@ -1,0 +1,9 @@
+
+#rank-math-rm-app-root {
+	position: fixed;
+	z-index: 10000;
+	top: 50px;
+	right: 0;
+	overflow-y: auto;
+	max-height: calc( 100vh - 50px );
+}

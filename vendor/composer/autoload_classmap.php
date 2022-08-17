@@ -93,6 +93,7 @@ return array(
     'RankMath\\Analytics\\Workflow\\Objects' => $baseDir . '/includes/modules/analytics/workflows/class-objects.php',
     'RankMath\\Analytics\\Workflow\\Workflow' => $baseDir . '/includes/modules/analytics/workflows/class-workflow.php',
     'RankMath\\Auto_Updater' => $baseDir . '/includes/class-auto-updater.php',
+    'RankMath\\Avada\\Avada' => $baseDir . '/includes/3rdparty/avada/class-avada.php',
     'RankMath\\Beta_Optin' => $baseDir . '/includes/modules/version-control/class-beta-optin.php',
     'RankMath\\BuddyPress\\Admin' => $baseDir . '/includes/modules/buddypress/class-admin.php',
     'RankMath\\BuddyPress\\BuddyPress' => $baseDir . '/includes/modules/buddypress/class-buddypress.php',

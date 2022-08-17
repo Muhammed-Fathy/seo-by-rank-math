@@ -198,6 +198,17 @@ trait Conditional {
 	}
 
 	/**
+	 * Is on Divi frontend editor.
+	 *
+	 * @since 1.0.63
+	 *
+	 * @return boolean
+	 */
+	public static function is_avada_frontend_editor() {
+		return function_exists( 'fusion_is_builder_frame' ) && fusion_is_builder_frame();
+	}
+
+	/**
 	 * Get current editor, or false if we're not editing.
 	 *
 	 * @since 1.0.67
@@ -211,6 +222,10 @@ trait Conditional {
 
 		if ( self::is_divi_frontend_editor() ) {
 			return 'divi';
+		}
+
+		if ( self::is_avada_frontend_editor() ) {
+			return 'avada';
 		}
 
 		if ( self::is_block_editor() && \rank_math_is_gutenberg() ) {

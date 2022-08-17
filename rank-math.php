@@ -406,6 +406,11 @@ final class RankMath {
 				}
 			}
 		);
+	
+		// Avada theme.
+		if ( class_exists( 'Fusion') ) {
+			new \RankMath\Avada\Avada();
+		}
 	}
 
 	/**

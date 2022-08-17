@@ -123,6 +123,7 @@ class ComposerStaticInite0bd047aa5058f04568aa38dfc5ac000
         'RankMath\\Analytics\\Workflow\\Objects' => __DIR__ . '/../..' . '/includes/modules/analytics/workflows/class-objects.php',
         'RankMath\\Analytics\\Workflow\\Workflow' => __DIR__ . '/../..' . '/includes/modules/analytics/workflows/class-workflow.php',
         'RankMath\\Auto_Updater' => __DIR__ . '/../..' . '/includes/class-auto-updater.php',
+        'RankMath\\Avada\\Avada' => __DIR__ . '/../..' . '/includes/3rdparty/avada/class-avada.php',
         'RankMath\\Beta_Optin' => __DIR__ . '/../..' . '/includes/modules/version-control/class-beta-optin.php',
         'RankMath\\BuddyPress\\Admin' => __DIR__ . '/../..' . '/includes/modules/buddypress/class-admin.php',
         'RankMath\\BuddyPress\\BuddyPress' => __DIR__ . '/../..' . '/includes/modules/buddypress/class-buddypress.php',
